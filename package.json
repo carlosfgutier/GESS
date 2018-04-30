@@ -1,0 +1,33 @@
+{
+  "name": "processor_template",
+  "version": "1.0.0",
+  "description": "Template folder structure for future projects that use Gulp and SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosfgutier/processor_template.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carlosfgutier/processor_template/issues"
+  },
+  "homepage": "https://github.com/carlosfgutier/processor_template#readme",
+  "devDependencies": {
+    "del": "^3.0.0",
+    "gulp-cache": "^1.0.2",
+    "gulp-cssnano": "^2.1.3",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0",
+    "gulp-useref": "^3.1.5",
+    "run-sequence": "^2.2.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.3"
+  }
+}
