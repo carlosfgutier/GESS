@@ -2,21 +2,28 @@
 <html>
 <head>
 	<title>Template</title>
-	
+
+	<!-- Express paths -->
 	<link rel="stylesheet" type="text/css" href="/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="/css/style.css">
+	
+	<!--build:css css/style.min.css -->
+	<link rel="stylesheet" type="text/css" href="../public/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="../public/css/style.css">
+	<!-- endbuild -->
+
 </head>
 <body>
 	<div class="test">
 		<h1 class="test">Gulp/SASS Template</h1>
 	</div>
 
+	<!-- Express paths -->
 	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-	<script type="text/javascript" src="js/logic.js"></script>
+	<script type="text/javascript" src="/js/logic.js"></script>
 
 	<!--build:js js/main.min.js -->
-	<script type="text/javascript" src="../public/js/logic.js"></script>
-	<!-- enbuild -->
+	<script type="text/javascript" src="../public/js/logic.js"></script><!-- endbuild -->
 
 </body>
 </html>
