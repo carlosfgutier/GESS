@@ -1,3 +1,1 @@
-$(document).ready(function() {
-	console.log('Logic is ready!');
-});
+console.log('Logic is ready!');
