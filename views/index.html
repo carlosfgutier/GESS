@@ -12,12 +12,47 @@
 	<link rel="stylesheet" type="text/css" href="../public/css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../public/css/style.css">
 	<!-- endbuild -->
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 </head>
 <body>
-	<div class="test">
-		<img id="heart" alt="Pink heart" src="images/sprites/heartSprite.png">
-		<h1 class="test">Gulp/SASS Template</h1>
+	
+	<div id="container">
+
+		<header id="redBox">
+			<div id="content">
+				<h1>GESS</h1>
+				<br>
+				<p>Gulp | SASS | Express</p>
+				<hr>
+				<p>MVC</p>
+			</div>
+		</header>
+
+		<aside id="infoBox">
+			<div id="instructions">
+				<h1 class="redify">GESS</h1>
+				<p>Gulp, SASS, and Express on an MVC stack.</p>
+				<ul>
+					<li>
+						<spam class="redify">✔</spam> Initial set-up has Gulp concatenate and minify CSS and JS files. It includes a <spam class="redify">watch</spam> task that refreshes the browser when changes to sccs and js files are made from the public directory, or changes occur in any html file saved in views.
+					</li>
+					<li>
+						<spam class="redify">✔</spam> Run '<spam class="redify">gulp useref</spam>' to update the html, css, and js files in the dist folder.
+					</li>
+					<li>
+						<spam class="redify">✔</spam> The Express server initial set-up renders static files from the dist and public folder.
+					</li>
+				</ul>
+				<br>
+				<p class="redify">
+					Future commits will include basic configurations for the controllers, models, and config folders and comments on how to get started with SASS
+					<br>
+					**
+				</p>
+			</div>
+		</aside>
+
 	</div>
 
 	<!-- jQuery -->
