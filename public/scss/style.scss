@@ -1,4 +1,42 @@
-.test {
-	text-align: center;
-	color: #e91e63;
+ul {
+	text-align: left;
+	padding-left: 1.5em;
+    text-indent:-1em;
+}
+
+#container {
+	font-family: 'Lato', sans-serif;
+}
+
+#redBox {
+	width: 100vw;
+	background-color: #ef5350;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 };
+
+#content {
+	font-size: 2rem;
+	color: white;
+	text-align: center;
+	width: 30vw;
+	margin: auto;
+	padding: 5% 0;
+}
+
+#infoBox {
+	text-align: center;
+	width: 60vw;
+	padding: 5%;
+	margin: 5% auto;
+	border-radius: 10px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+#instructions {
+	font-size: 1.2rem;
+	line-height: 1.75rem;
+}
+
+.redify {
+	color: #ef5350;
+}
