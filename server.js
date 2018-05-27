@@ -13,8 +13,9 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // parse application/json
 app.use(bodyParser.json());
 
-// var routes = require("./controllers/burgersController.js");
-// app.use(routes);
+// var routes = require("./controllers/guess_controller.js");
+app.use("/", routes);
+app.use("/findAll", routes);
 
 app.listen(PORT, function() {
   console.log("Listening on port", PORT);
